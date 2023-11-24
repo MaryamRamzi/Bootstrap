@@ -1,0 +1,53 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: Vazir;
+    font-weight: 300;
+    padding-top: 3rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 100;
+}
+
+.carousel-item {
+    height: 34rem;
+}
+.carousel-item > img {
+    height: 34rem;
+}
+@media screen and (min-width: 810px) {
+    .carousel-item {
+        height: 36rem;
+    }
+    .carousel-item > img {
+        height: auto;
+    } 
+}
+
+.navbar >img{
+    margin-right: 20px;
+}
+
+.navbar>button{
+    margin-left: 10px;
+}
+
+/* #navbarCollapse{
+    height: 100%;
+} */
+
+/* #navbarCollapse.collapsing{
+    height: 0;
+} */
+
+.btn{
+    background-color: #e67e22;
+    border-color: #d35400;
+}
+
+.box-divider {
+    margin: 5rem 0;
+    color: #e67e22;
+}
